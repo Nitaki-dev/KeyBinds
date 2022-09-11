@@ -158,7 +158,7 @@ public boolean keyPressed(int keyCode, int scanCode, int modifiers) {
 
 If you followed all the steps correctly, every modules should now have a setting called `Keybind: 0`. 
 <br>
-verything works, should should be able to simply click on the setting to set a keybind!
+If everything works, should should be able to simply click on the setting to set a keybind!
 <br><br>
 Need some help? Contact me on
 [Discord](https://discord.gg/jBHTMgEXXk)!
