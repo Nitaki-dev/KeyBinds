@@ -29,3 +29,12 @@ body {
 .highlight {
     background-color: #262626;
 }
+.main-content .highlight pre, .main-content pre {
+    padding: 0.8rem;
+    overflow: auto;
+    font-size: 0.9rem;
+    line-height: 1.45;
+    border-radius: 0.3rem;
+    -webkit-overflow-scrolling: touch;
+    background-color: #1c1f22;
+}
