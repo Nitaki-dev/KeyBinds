@@ -46,10 +46,17 @@ body {
     color: #adadad;
     font-weight: bold;
 }
-.highlight .n, .highlight .na {
+.highlight .n, .highlight .na, .highlight .nf {
     color: #b1ceff;
 }
 .highlight .nc {
+    color: #b13b3b;
+    font-weight: bold;
+}.highlight .nc {
+    color: #b13b3b;
+    font-weight: bold;
+}
+.highlight .s {
     color: #b13b3b;
     font-weight: bold;
 }
