@@ -131,7 +131,7 @@ Inside of the `Mod.java` class located inside `CLIENTNAME\module`, add the folow
 addSetting(new KeyBindSetting("Key", 0));
 ```
 <br>
-![Image](https://cdn.discordapp.com/attachments/1012433630666166292/1012836510862692512/IMG_0582.png)
+![Image](https://cdn.discordapp.com/attachments/684812018099814472/1018514883186282558/unknown.png)
 
 ## Step 5
 
