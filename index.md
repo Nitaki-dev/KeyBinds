@@ -1,22 +1,39 @@
-### Adding keybinds
+# Keybinds
 
 Here is a quick guid on how to add keybinds to your hacked client. <br>
 This tutorial is intended for 1.19 clients, but it should work for later versions
 
+## Step 1
 
+Inside of `src\main\java\CLIENTNAME\module\settings`, create a new class called `KeyBindSetting.java` <br>
+In the `KeyBindSetting.java` class, put in the following code:
 
-# E
-## EE
-### EEE
+```java
+package CLIENTNAME.module.settings;
 
-```markdown
+public class KeyBindSetting extends Setting {
+    
+    private int key;
+	private boolean enabled;
+    
+    public KeyBindSetting(String name, int defaultKey) {
+        super(name);
+        this.key = defaultKey;
+    }
+    public int getKey() {
+    	return key;
+    }
 
-- test1
-- test2
+    public void setKey(int key) {
+    	this.key = key;
+    }
 
-1. Num
-2. List
+    public void toggle() {
+    	this.enabled = !this.enabled;
+    }
+}
 ```
+
 
 **YES** _no_ `maybe` haha
 
