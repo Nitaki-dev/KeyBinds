@@ -104,6 +104,16 @@ public class KeyBind extends Component {
 }
 ```
 
+## Step 3
+
+Inside of your `ModuleButton.java` class located inside of `src\main\java\CLIENTNAME\ui\screens\clickGUI\setting;` 
+Locate the following text (should be arround line 55)
+[img](https://cdn.discordapp.com/attachments/684812018099814472/1018493054795128893/unknown.png)
+```java
+ else if (setting instanceof KeyBindSetting) {
+				components.add(new KeyBind(setting, this, setOffset));
+			}```
+
 **YES** _no_ `maybe` haha
 
 Need some help? Contact me on
