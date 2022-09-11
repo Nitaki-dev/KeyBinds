@@ -126,7 +126,7 @@ Then, at then end of the `ModuleButton.java` class add the following code:
 ```
 ## Step 4
 
-Inside of the `Mod.java` class located inside of `CLIENTNAME\module`, add the folowing code to match the screenshot
+Inside of the `Mod.java` class located inside `CLIENTNAME\module`, add the folowing code to match the screenshot
 ```java
 addSetting(new KeyBindSetting("Key", 0));
 ```
