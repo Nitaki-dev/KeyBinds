@@ -132,8 +132,32 @@ addSetting(new KeyBindSetting("Key", 0));
 ```
 <br>
 ![Image](https://cdn.discordapp.com/attachments/1012433630666166292/1012836510862692512/IMG_0582.png)
+
+## Step 5
+
+Inside of your `Frame.java` class (`CLIENTNAME\ui\screens\clickGUI`) add the following code:
+```java
+public void keyPressed(int key) {
+        for (ModuleButton mb : buttons) {
+            mb.keyPressed(key);
+}
+```
+
+Then at the end of your `clickGUI.java` class (`CLIENTNAME\ui\screens\clickGUI`) add the following code:
+```java
+@Override
+public boolean keyPressed(int keyCode, int scanCode, int modifiers) {
+    for (Frame frame : frames) {
+        frame.keyPressed(keyCode);
+    }
+    return super.keyPressed(keyCode, scanCode, modifiers);
+}
+```
 <br>
-**YES** _no_ `maybe` haha
+
+If you followed all the steps correctly, every modules should have a setting called `Keybind: 0`. 
+<br>
+verything works, should should be able to simply click on the setting to set a keybind!
 
 Need some help? Contact me on
-[ Discord!](https://discord.gg/jBHTMgEXXk)
+[Discord](https://discord.gg/jBHTMgEXXk)!
