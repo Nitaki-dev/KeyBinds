@@ -116,8 +116,7 @@ Locate the following text (should be arround line 55)
 				components.add(new KeyBind(setting, this, setOffset));
 			}
 ```
-<br>
-Then add the following code at the end of the `ModuleButton.java` class:
+Then, at then end of the `ModuleButton.java` class add the following code:
 ```java
 	public void keyPressed(int key) {
         for (Component component : components) {
@@ -131,7 +130,7 @@ Inside of the `Mod.java` class located inside of `CLIENTNAME\module`, add the fo
 ```java
 addSetting(new KeyBindSetting("Key", 0));
 ```
-<br><br>
+<br>
 ![Image](https://cdn.discordapp.com/attachments/1012433630666166292/1012836510862692512/IMG_0582.png)
 <br>
 **YES** _no_ `maybe` haha
