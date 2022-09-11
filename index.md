@@ -4,10 +4,12 @@ Here is a quick guid on how to add keybinds to your hacked client. <br>
 This tutorial is intended for 1.19 clients, but it should work for later versions
 
 
-```markdown
+
 # E
 ## EE
 ### EEE
+
+```markdown
 
 - test1
 - test2
@@ -20,5 +22,3 @@ This tutorial is intended for 1.19 clients, but it should work for later version
 
 Need some help? Contact me on
 [ Discord!](https://discord.gg/jBHTMgEXXk)
-
-### Done
