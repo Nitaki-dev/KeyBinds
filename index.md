@@ -18,7 +18,7 @@ This tutorial is intended for 1.19 clients, but it should work for later version
 
 **YES** _no_ `maybe` haha
 
-[Link](https://youtube.com/)
-![Image](https://pages.github.com/images/logo.svg)
+Need some help? Contact me on
+[ Discord!](https://discord.gg/jBHTMgEXXk)
 
 ### Done
