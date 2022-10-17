@@ -1,6 +1,6 @@
 # Keybinds
 
-Here is a quick guid on how to add keybinds to your hacked client. <br>
+BadGamesInc#7634 is a very very very cool dude, so here is a quick guid on how to add keybinds to your hacked client. <br>
 This tutorial is intended for 1.19 clients, but it should work for later versions
 
 ## Step 1
