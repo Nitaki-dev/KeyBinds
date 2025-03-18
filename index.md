@@ -155,7 +155,9 @@ public boolean keyPressed(int keyCode, int scanCode, int modifiers) {
 ```
 <br>
 
-If you followed all the steps correctly, every modules should have a setting called `Keybind: 0`. 
+# Enjoy!
+
+If you followed all the steps correctly, every modules should now have a setting called `Keybind: 0`. 
 <br>
 verything works, should should be able to simply click on the setting to set a keybind!
 
