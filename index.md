@@ -14,6 +14,7 @@ This tutorial is intended for 1.19 clients, but it should work for later version
 
 1. Num
 2. List
+```
 
 **YES** _no_ `maybe` haha
 
