@@ -106,9 +106,9 @@ public class KeyBind extends Component {
 
 ## Step 3
 
-Inside of your `ModuleButton.java` class located inside of `src\main\java\CLIENTNAME\ui\screens\clickGUI\setting;` 
-Locate the following text (should be arround line 55) 
-<br>
+Inside of your `ModuleButton.java` class located inside of `src\main\java\CLIENTNAME\ui\screens\clickGUI\setting;`<br>
+Locate the following text (should be arround line 55)
+<br><br>
 ![Image](https://cdn.discordapp.com/attachments/684812018099814472/1018493054795128893/unknown.png)
 <br> and add the following code:
 ```java
