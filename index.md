@@ -5,7 +5,7 @@ This tutorial is intended for 1.19 clients, but it should work for later version
 
 ## Step 1
 
-Inside of `src\main\java\CLIENTNAME\module\settings`, create a new class called `KeyBindSetting.java` <br>
+Inside of `CLIENTNAME\module\settings`, create a new class called `KeyBindSetting.java` <br>
 In the `KeyBindSetting.java` class, put in the following code:
 
 ```java
@@ -35,7 +35,7 @@ public class KeyBindSetting extends Setting {
 ```
 
 ## Step 2
-Inside of `src\main\java\CLIENTNAME\ui\screens\clickGUI\setting;` create a new class called `KeyBind.java` and paste the following code inside:
+Inside of `CLIENTNAME\ui\screens\clickGUI\setting;` create a new class called `KeyBind.java` and paste the following code inside:
 
 ```java
 package CLIENTNAME.ui.screens.clickGUI.setting;
@@ -106,7 +106,7 @@ public class KeyBind extends Component {
 
 ## Step 3
 
-Inside of your `ModuleButton.java` class located inside of `src\main\java\CLIENTNAME\ui\screens\clickGUI\setting;`<br>
+Inside of your `ModuleButton.java` class located inside of `CLIENTNAME\ui\screens\clickGUI\setting;`<br>
 Locate the following text (should be arround line 55)
 <br><br>
 ![Image](https://cdn.discordapp.com/attachments/684812018099814472/1018493054795128893/unknown.png)
@@ -116,7 +116,24 @@ Locate the following text (should be arround line 55)
 				components.add(new KeyBind(setting, this, setOffset));
 			}
 ```
+<br>
+Then add the following code at the end of the `ModuleButton.java` class:
+```java
+	public void keyPressed(int key) {
+        for (Component component : components) {
+            component.keyPressed(key);
+        }
+    }
+```
+## Step 4
 
+Inside of the `Mod.java` class located inside of `CLIENTNAME\module`, add the folowing code to match the screenshot
+```java
+addSetting(new KeyBindSetting("Key", 0));
+```
+<br><br>
+![Image](https://cdn.discordapp.com/attachments/1012433630666166292/1012836510862692512/IMG_0582.png)
+<br>
 **YES** _no_ `maybe` haha
 
 Need some help? Contact me on
