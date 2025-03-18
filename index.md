@@ -153,7 +153,6 @@ public boolean keyPressed(int keyCode, int scanCode, int modifiers) {
     return super.keyPressed(keyCode, scanCode, modifiers);
 }
 ```
-<br>
 
 # Enjoy!
 
