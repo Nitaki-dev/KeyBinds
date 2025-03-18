@@ -38,11 +38,14 @@ body {
     -webkit-overflow-scrolling: touch;
     background-color: #1c1f22;
 }
-.highlight .kd, .highlight .k, .highlight .kv  {
+.highlight .kd, .highlight .k, .highlight .kv {
     color: #59b1e2;
     font-weight: bold;
 }
 .highlight .o {
     color: #adadad;
     font-weight: bold;
+}
+.highlight .n {
+    color: #79abff;
 }
